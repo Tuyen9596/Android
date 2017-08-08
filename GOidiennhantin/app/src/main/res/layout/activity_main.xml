@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tuyen.com.goidiennhantin.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.03"
+        android:text="So dien thoai"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Loi nhan" />
+
+    <EditText
+        android:id="@+id/txttinnhan"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.03"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btquayso"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quay so" />
+
+        <Button
+            android:id="@+id/btgoiluon"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GOi luon" />
+
+        <Button
+            android:id="@+id/btnhantin"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nhan tin" />
+    </LinearLayout>
+</LinearLayout>
