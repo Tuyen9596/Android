@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imganh"
+        android:layout_width="150dp"
+        android:layout_height="221dp"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/txtid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/id"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/name"
+            android:enabled="false"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/txtsdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/so_dien_thoai"
+            android:inputType="textPersonName" />
+        <Button
+            android:id="@+id/btsua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update" />
+        <Button
+            android:id="@+id/btxoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xoa" />
+    </LinearLayout>
+</LinearLayout>

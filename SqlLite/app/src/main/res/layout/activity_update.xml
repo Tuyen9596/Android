@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tuyen.com.sqllite.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgHinhDaiDien1"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription=""
+        tools:ignore="ContentDescription"
+        android:layout_alignRight="@+id/edtTen"
+        android:layout_alignEnd="@+id/edtTen" />
+
+    <Button
+        android:text="@string/ch_p_h_nh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnChupHinh"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:text="@string/ch_n_h_nh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnChonHinh"
+        android:layout_below="@+id/btnChupHinh"
+        android:layout_alignLeft="@+id/btnChupHinh"
+        android:layout_alignStart="@+id/btnChupHinh" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/nameupdate"
+        android:ems="10"
+        android:id="@+id/edtTen"
+        android:layout_above="@+id/edtSdt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edtSdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/so_dien_thoai_2"
+        android:inputType="phone"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/l_u"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtSdt"
+        android:layout_alignRight="@+id/imgHinhDaiDien"
+        android:layout_alignEnd="@+id/imgHinhDaiDien"
+        android:id="@+id/btnLuu"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:text="@string/h_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHuy"
+        android:layout_below="@+id/edtSdt"
+        android:layout_alignLeft="@+id/btnChonHinh"
+        android:layout_alignStart="@+id/btnChonHinh" />
+</RelativeLayout>
