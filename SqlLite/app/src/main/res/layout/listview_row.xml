@@ -25,14 +25,16 @@
             android:enabled="false"
             android:hint="@string/id"
             android:inputType="textPersonName" />
+
         <EditText
             android:id="@+id/txtname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/name"
             android:enabled="false"
+            android:hint="@string/name"
             android:inputType="textPersonName" />
+
         <EditText
             android:id="@+id/txtsdt"
             android:layout_width="match_parent"
